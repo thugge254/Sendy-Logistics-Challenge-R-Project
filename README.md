@@ -1,4 +1,4 @@
-# Sendy Logistics Challenge
+# Sendy Logistics Challenge (https://zindi.africa/competitions/sendy-logistics-challenge)
 ## Predicting Estimated Time of Arrival (ETA) for Motorbike Deliveries in Nairobi
 
 ### Overview
@@ -33,24 +33,87 @@ External factors: Weather, time of day, congestion levels.
 - Visualized key trends affecting ETA.
   
 ### Model Development:
+
 - Trained various machine learning models (Linear Regression, Random Forest, Gradient Boosting, Neural Networks).
 - Tuned hyperparameters to optimize model performance.
 - Selected the best-performing model based on evaluation metrics (RMSE, MAE, R-squared).
   
 ### Evaluation and Deployment:
+
 - Validated model performance using a test dataset.
 - Compared predictions with actual delivery times.
 - Proposed deployment strategies for integrating the model into Sendy's platform.
   
 ### Results and Impact
+
 - Improved ETA prediction accuracy, leading to better customer satisfaction.
 - Optimized rider scheduling, reducing idle time and improving efficiency.
 - Enhanced operational decision-making through data-driven insights.
 
-### About Sendy
+### About Sendy 
 
 Sendy is a business-to-business logistics platform founded in 2014. Operating in Kenya, Uganda, and expanding into Nigeria and Tanzania, Sendy provides a marketplace for businesses to connect with delivery partners. By optimizing transport solutions, Sendy aims to make logistics more accessible and cost-effective.
 
 ### About insight2impact (i2i)
 
 i2i is a resource center that promotes data-driven decision-making for financial and economic inclusion. Funded by the Gates Foundation and The Mastercard Foundation, i2i supports innovative solutions that enhance economic development through better use of data.
+
+### Project Structure
+```
++----data
+|    Train.csv
+|    Test.csv
+|    Riders.csv
+|    SampleSubmission.csv
++---.vscode
+|       settings.json
+|       
++---assets
+|    
+|       
++--------
+```
+### Installation
+
+#### Clone the Repository
+`git clone https://github.com/thugge254/Sendy-Logistics-Challenge-R-Project.git`
+
+### Install Dependencies
+`pip install -r requirements.txt`
+
+### Run the Application
+`streamlit run app.py`
+
+## Screenshots
+
+### Study Topic
+
+![Portfolio Distribution](Question.png)
+
+### Code Overview
+![Overview Page](Code.png)
+
+### Data Overview
+
+![Predictive Insights](Data.png)
+
+## Author
+Moses Chege
+
+#### Data Analyst | SQL • Python •  R • Excel | Turning Data into Actionable Insights
+
+#### Skills
+- R
+- scikit-learn
+- Machine Learning
+- Data Visualization
+
+
+### GitHub Repository:
+
+https://github.com/thugge254/Sendy-Logistics-Challenge-R-Project
+
+#### License
+
+This project is open-source and available under the MIT License.
+
